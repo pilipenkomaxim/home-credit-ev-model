@@ -187,3 +187,7 @@ cython_debug/
 *.pbix
 data/*
 !data/.gitkeep
+
+.Rhistory
+.RData
+.Rproj.user/
