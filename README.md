@@ -43,8 +43,8 @@ experiment: binning `amt_goods_price` into deciles lifted validation PR-AUC by
 notebooks/
 00_data_dictionary.ipynb column definitions
 01_column_checks.ipynb inspection of all 122 application columns
-02_cleaning.ipynb cleaning decisions and the reasoning for each
-03_model.ipynb split, pipelines, baseline models
+02_cleaning_preparation.ipynb cleaning decisions and the reasoning for each
+03_machine_learning.ipynb split, pipelines, baseline models
 sql/
 01_create_tables.sql schema for all seven tables
 02_indexes.sql indexes on the join keys
@@ -92,5 +92,5 @@ I used Claude throughout this project, mainly for scaffolding — sklearn syntax
 pipeline structure, catching bugs. The analytical decisions are mine: which
 anomalies to investigate, whether a value was an error or a genuine extreme, what to
 drop and why, and which improvements cleared the noise floor. The modelling notebook
-was then rebuilt from scratch without assistance, using the first version as a
+will be rebuilt from scratch without assistance, using the first version as a
 reference.
